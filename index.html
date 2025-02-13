@@ -13,26 +13,19 @@
             gap: 5px; 
             row-gap: 20px; 
             padding:20px; 
-            text-align: center;}
-        
-        .title {
-            margin-top: 6px; 
-            color: #203B5F; 
-            font-family: "Nunito";
-            font-weight: 600; 
-            font-size: 15px; 
-            font-style: normal;
-            line-height: normal;
-            white-space: nowrap
+            text-align: center;
+            list-style: none;
         }
         
-        img {width: 90px; height: 110px; padding: 5px 5px 15px; }
-        
+        /* ul {
+            padding: 0; 
+        } */
         .paloroid { 
-            background-color:  
-            white; 
+            background-color: white;
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
         }
+        
+        img {width: 90px; height: 110px; padding: 5px 5px 15px; } 
         
         .image-container{
             position: relative;
@@ -46,48 +39,53 @@
             width: 16px;
             height: 15px;
         }
+
+        .title {
+            margin-top: 6px; 
+            color: #203B5F; 
+            font-family: "Nunito";
+            font-weight: 600; 
+            font-size: 15px; 
+            font-style: normal;
+            line-height: normal;
+            white-space: nowrap
+        }
    </style>
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="list">
-        <div class="paloroid-card" >
+    <ul class="list">
+        <li class="paloroid-card" >
             <div class="image-container">
                 <img class="paloroid" src="images/mush1.jpg" alt="Death Cap">
-                <svg class="warning-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                    <path d="M1.66911 14.6859H14.2289C15.5133 14.6859 16.3139 13.2932 15.6717 12.184L9.39181 1.33385C8.74964 0.224653 7.14839 0.224653 6.50622 1.33385L0.226319 12.184C-0.415849 13.2932 0.384776 14.6859 1.66911 14.6859ZM7.94901 8.84805C7.49032 8.84805 7.11503 8.47276 7.11503 8.01407V6.3461C7.11503 5.88741 7.49032 5.51211 7.94901 5.51211C8.40771 5.51211 8.783 5.88741 8.783 6.3461V8.01407C8.783 8.47276 8.40771 8.84805 7.94901 8.84805ZM8.783 12.184H7.11503V10.516H8.783V12.184Z" fill="#FF5050"/>
-                </svg>
+                <img class="warning-icon" src="images/warning.png" alt="Pousiness Warning">
             </div>
             <h4 class="title">Death Cap</h4>
-        </div> 
-        <div class="paloroid-card" >
+        </li> 
+        <li class="paloroid-card" >
             <img class="paloroid" src="images/mush2.jpg" alt="Paddy Straw">
             <h4 class="title">Paddy Straw</h4>
-        </div> 
-        <div class="paloroid-card" >
+        </li> 
+        <li class="paloroid-card" >
             <div class="image-container">
                 <img class="paloroid" src="images/mush3.jpg" alt="Destroying Angel">
-                <svg class="warning-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                    <path d="M1.66911 14.6859H14.2289C15.5133 14.6859 16.3139 13.2932 15.6717 12.184L9.39181 1.33385C8.74964 0.224653 7.14839 0.224653 6.50622 1.33385L0.226319 12.184C-0.415849 13.2932 0.384776 14.6859 1.66911 14.6859ZM7.94901 8.84805C7.49032 8.84805 7.11503 8.47276 7.11503 8.01407V6.3461C7.11503 5.88741 7.49032 5.51211 7.94901 5.51211C8.40771 5.51211 8.783 5.88741 8.783 6.3461V8.01407C8.783 8.47276 8.40771 8.84805 7.94901 8.84805ZM8.783 12.184H7.11503V10.516H8.783V12.184Z" fill="#FF5050"/>
-                </svg>
+                <img class="warning-icon" src="images/warning.png" alt="Pousiness Warning">
             </div>
             <h4 class="title">Destroying Angel</h4>
-        </div> 
-        <div class="paloroid-card" >
+        </li> 
+        <li class="paloroid-card" >
             <div class="image-container">
                 <img class="paloroid"  src="images/mush4.jpg" alt="False Death Cap">
-                <svg class="warning-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none">
-                    <path d="M1.66911 14.6859H14.2289C15.5133 14.6859 16.3139 13.2932 15.6717 12.184L9.39181 1.33385C8.74964 0.224653 7.14839 0.224653 6.50622 1.33385L0.226319 12.184C-0.415849 13.2932 0.384776 14.6859 1.66911 14.6859ZM7.94901 8.84805C7.49032 8.84805 7.11503 8.47276 7.11503 8.01407V6.3461C7.11503 5.88741 7.49032 5.51211 7.94901 5.51211C8.40771 5.51211 8.783 5.88741 8.783 6.3461V8.01407C8.783 8.47276 8.40771 8.84805 7.94901 8.84805ZM8.783 12.184H7.11503V10.516H8.783V12.184Z" fill="#FF5050"/>
-                </svg>
+                <img class="warning-icon" src="images/warning.png" alt="Pousiness Warning">
             </div>
             <h4 class="title">False Death Cap</h4>
-        </div> 
-        <div class="paloroid-card" >
+        </li> 
+        <li class="paloroid-card" >
             <img class="paloroid" src="images/mush5.jpg" alt="Puffball">
             <h4 class="title">Puffball</h4>
-        </div> 
-    </div>
+        </li> 
+    </ul>
 </body>
 </html>
